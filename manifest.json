@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "modcore Clipboard",
+  "version": "1.0.0",
+  "description": "Secure, zero-knowledge encrypted clipboard manager.",
+  "permissions": [
+    "storage",
+    "unlimitedStorage",
+    "clipboardRead",
+    "clipboardWrite",
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
