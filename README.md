@@ -1,0 +1,1 @@
+# modcore-clipboard
