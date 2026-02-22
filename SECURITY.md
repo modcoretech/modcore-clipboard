@@ -92,7 +92,7 @@ At **modcore**, we are committed to maintaining the security of **modcore Clipbo
 * **Security Email**: [ngde@web.de](mailto:ngde@web.de)
 * **Project Repository**: [modcore Clipboard on GitHub](https://github.com/modcoretech/modcore-clipboard)
 
-Thank you for helping us keep **modcore Extension Manager** secure.
+Thank you for helping us keep **modcore Clipboard** secure.
 
 ---
 
